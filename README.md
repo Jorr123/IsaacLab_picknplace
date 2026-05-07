@@ -19,5 +19,7 @@ to run integrated OpenVLA agent: ./isaaclab.sh -p source/isaaclab_tasks/isaaclab
 (Need to download "pip install transformers==4.38.2 accelerate bitsandbytes timm==0.9.16 sentencepiece imageio[ffmpeg]" to run the OpenVLA eval) 
 
 ===================================================================================================================================================================
+some changes to be done:
 
+change the     custom_path = "/data/openvla_data/pick_place_checkpoint25k_no_agg/pick_place"   inside run_openvla_eval.py into the path of the OpenVLA checkpoint
 
