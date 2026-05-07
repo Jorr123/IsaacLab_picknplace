@@ -6,7 +6,11 @@ to run integrated OpenVLA agent: ./isaaclab.sh -p source/isaaclab_tasks/isaaclab
 (Need to download "pip install transformers==4.38.2 accelerate bitsandbytes timm==0.9.16 sentencepiece imageio[ffmpeg]") 
 
 data_recorder.py = Class for data recording into HDF5 format
+
 openvla_agent.py = Class to instantiate openvla model
+
 run_expert_demo.py = Expert controller script
+
 run_openvla_eval.py = OpenVLA evaluation script
+
 stack_cfg.py = Our custom manager-based environment configuration
