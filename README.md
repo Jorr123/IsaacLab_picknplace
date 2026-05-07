@@ -21,6 +21,6 @@ to run integrated OpenVLA agent: ./isaaclab.sh -p source/isaaclab_tasks/isaaclab
 ===================================================================================================================================================================
 some changes to be done:
 
-change the     custom_path = "/data/openvla_data/pick_place_checkpoint25k_no_agg/pick_place"   inside run_openvla_eval.py into the path of the OpenVLA checkpoint
+change the    [ custom_path = "/data/openvla_data/pick_place_checkpoint25k_no_agg/pick_place" ]  inside run_openvla_eval.py into the path of the OpenVLA checkpoint
 
-modify the      video_writer = imageio.get_writer("/workspace/isaaclab/logs/pick_place_eval_no_agg.mp4", fps=10)   inside run_openvla_eval.py into the path of the desired output directory
+modify the     [ video_writer = imageio.get_writer("/workspace/isaaclab/logs/pick_place_eval_no_agg.mp4", fps=10) ]  inside run_openvla_eval.py into the path of the desired output directory
