@@ -44,13 +44,13 @@ def main():
     obs, _ = env.reset()
 
     robot = env.scene["robot"]
-    cube = env.scene["cube3"]
+    cube = env.scene["cube"]
     target = env.scene["target"]
 
 
     recorder = DataRecorder(
         output_dir="/data/openvla_data/dataset_pick_place_3", 
-        task_description="pick up the yellow cube and place it on the red target"
+        task_description="pick up the green cube and place it on the red target"
     )
 
     print("[INFO] Starting Simulation Loop...")
