@@ -3,7 +3,8 @@ Put the File in the IsaacLab directory -> IsaacLab/source/isaaclab_tasks/isaacla
 to run the expert controller: ./isaaclab.sh -p source/isaaclab_tasks/isaaclab_tasks/manager_based/manipulation/my_stack_clean/run_expert_demo.py
 
 to run integrated OpenVLA agent: ./isaaclab.sh -p source/isaaclab_tasks/isaaclab_tasks/manager_based/manipulation/my_stack_clean/run_openvla_eval.py
-(Need to download "pip install transformers==4.38.2 accelerate bitsandbytes timm==0.9.16 sentencepiece imageio[ffmpeg]") 
+
+(Need to download "pip install transformers==4.38.2 accelerate bitsandbytes timm==0.9.16 sentencepiece imageio[ffmpeg]" to run the OpenVLA eval) 
 
 data_recorder.py = Class for data recording into HDF5 format
 
